@@ -34,6 +34,7 @@ module.exports = function application(
   actions = { updateAppointment: () => {} }
 ) {
   app.use(cors());
+  
   app.use(helmet());
   app.use(bodyparser.json());
 

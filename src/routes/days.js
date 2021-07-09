@@ -1,4 +1,5 @@
 const router = require("express").Router();
+const cors = require('cors');
 
 module.exports = db => {
   router.get("/days", (request, response) => {
